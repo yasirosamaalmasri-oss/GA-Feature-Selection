@@ -1,0 +1,22 @@
+Feature Selection Results
+=======================
+
+Parameters:
+-----------
+generations: 20
+population_size: 50
+data_sampling: 0.7
+mutation_prob: 0.2
+crossover_prob: 0.8
+n_jobs: 4
+
+Dataset Information:
+-------------------
+Total samples: 7797
+Total features: 617
+
+Solutions Found: 8
+================
+
+Solution 1:
+  Accuracy Score: 0.0000

@@ -1,0 +1,50 @@
+Feature Selection Results
+======================================================================
+
+Parameters:
+-----------
+generations: 20
+population_size: 50
+data_sampling: 0.7
+mutation_prob: 0.2
+crossover_prob: 0.8
+n_jobs: 4
+
+Dataset Information:
+-------------------
+Total samples: 7797
+Total features: 617
+
+Solutions Found: 6
+==============================
+
+Solution 1:
+Accuracy Score: 0.7692
+Number of Features Selected: 307
+Selected Features: f2, f5, f6, f10, f14, f15, f17, f23, f25, f27...
+
+Solution 2:
+Accuracy Score: 0.7752
+Number of Features Selected: 250
+Selected Features: f1, f2, f5, f6, f10, f14, f15, f17, f23, f25...
+
+Solution 3:
+Accuracy Score: 0.7303
+Number of Features Selected: 248
+Selected Features: f2, f5, f6, f10, f14, f15, f17, f23, f25, f27...
+
+Solution 4:
+Accuracy Score: 0.7624
+Number of Features Selected: 244
+Selected Features: f2, f5, f6, f10, f14, f15, f17, f23, f25, f27...
+
+Solution 5:
+Accuracy Score: 0.7513
+Number of Features Selected: 242
+Selected Features: f2, f5, f6, f10, f14, f15, f17, f23, f25, f27...
+
+Solution 6:
+Accuracy Score: 0.7684
+Number of Features Selected: 261
+Selected Features: f2, f5, f6, f10, f14, f15, f17, f23, f25, f27...
+

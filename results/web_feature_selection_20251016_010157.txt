@@ -1,0 +1,7 @@
+Feature Selection Results
+=======================
+
+Dataset: phpB0xrNj.csv
+Samples: 7797, Features: 617
+
+Solution 1:
