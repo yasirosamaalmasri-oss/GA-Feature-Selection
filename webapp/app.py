@@ -1,3 +1,4 @@
+# webapp/app.py
 import warnings
 warnings.filterwarnings("ignore")
 import os
@@ -31,6 +32,20 @@ Please upload your dataset to start the process.
 
 # --- تحميل البيانات ---
 st.header("📂 Upload Dataset")
+
+# ✅ تنويه خاص حول ملف البيانات الأصلي المستخدم في المشروع
+st.info("""
+If you would like to test the same dataset used during the project development,  
+you can download it directly from the following link:
+""")
+
+# ✅ زر تحميل ملف البيانات الأصلي من Google Drive
+dataset_url = "https://drive.google.com/file/d/1_6ytYq_tcTXMnYrcCBcpzbXgU7kpSFd7/view"
+st.markdown(f"[⬇️ Click here to download the original dataset used in this project]({dataset_url})", unsafe_allow_html=True)
+
+st.markdown("---")
+
+# ✅ أداة رفع الملف
 uploaded_file = st.file_uploader("Upload your CSV file:", type=["csv"])
 
 if uploaded_file is None:
